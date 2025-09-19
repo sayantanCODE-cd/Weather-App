@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App - Easy Tutorials</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="card">
     <div class="search">
-        <input type="text" placeholder="enter city name" spellcheck="false">
+        <input type="text" placeholder="Enter City Name" spellcheck="false">
         <button><img src="images/search.png"></button>
     </div>
     <div class="error">
@@ -37,10 +37,10 @@
         </div>
     </div>
 </div>
-<a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1" class="watch-link">Watch More Videos</a>
+<!-- <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1" class="watch-link">Watch More Videos</a> -->
 <script>
 
-const apiKey = "863242cfb2b1d357e6093d9a4df19a4b";
+const apiKey = "92d1cc1ebdd04fe8a588234e488d74c3";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
@@ -90,9 +90,8 @@ searchBtn.addEventListener("click", ()=>{
     checkWeather(searchBox.value);
 })
 
-
 </script>
-
 
 </body>
 </html>
+
